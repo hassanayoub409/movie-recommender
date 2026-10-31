@@ -9,15 +9,13 @@ An interactive web app with **two recommender systems written from scratch in Nu
 
 Rate a few movies you know (or click a preset), and both models recommend what to watch next. You can compare their lists side by side, filter by genre, and look up similar movies.
 
-<!-- Add a screenshot or GIF: ![Demo](docs/demo.png) -->
-
 ## Run it locally
 
 Requires Python 3.9+.
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/hassanayoub409/movie-recommender.git
+cd movie-recommender
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 streamlit run app.py
