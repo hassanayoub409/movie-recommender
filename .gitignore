@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+# MovieLens data and models trained on it are generated locally (see README, "Data and license")
+data/*
+!data/.gitkeep
+models/*
+!models/.gitkeep
